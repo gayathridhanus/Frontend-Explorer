@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+    margin: auto;
+    position: absolute;
+    border-radius: 10px;
+}
+body , html{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-top: 5px;
+    color: white;
+    font-size: larger;
+    font-family: Times New Roman and Garamond;
+}
+.place {
+    margin-top: 10px;
+    color: rgb(226, 234, 14);
+    font-size: 13px;
+    font-family: monospace;
+}
+
+p{
+    margin-top: 15px;
+    color: rgb(214, 207, 207);
+    font-size: 13px;
+}
+.git ,.fm , .lin , .ins ,.twi{
+    background-color: rgb(66, 63, 63);
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 20px;
+}
+.circle {
+    width: 100px; 
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+
+.circle img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
